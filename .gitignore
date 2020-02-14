@@ -1,0 +1,11 @@
+.data
+.ipynb_checkpoints
+__pycache__
+*.npy
+*.h5
+*.ckpt-*
+*.pyc
+*.save
+*.swp
+*.zip
+backup*
