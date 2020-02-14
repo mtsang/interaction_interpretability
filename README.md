@@ -38,7 +38,7 @@ We require CUDA 10 support to use GLIDER.
 ## Usage
 ### 1. MADEX
 
-**MADEX (Model-Agnostic Dependency EXplainer)** is a method for interpreting feature interactions from a black-box prediction model per data instance. It contains two versions of Neural Interaction Detection (NID): the original NID and GradientNID. NID is a fast and accurate method to detect arbitrary-order interactions in polynomial time. GradientNID exactly detects interactions from an explainer MLP. The following domains are showcased: DNA, graph, image, and text modeling.
+**MADEX (Model-Agnostic Dependency EXplainer)** is a method for interpreting feature interactions from a black-box prediction model per data instance. It contains two versions of Neural Interaction Detection (NID): the original NID and GradientNID. NID is a fast and accurate method to detect arbitrary-order interactions in polynomial time, whereas GradientNID exactly detects interactions from an explainer MLP. The following domains are showcased: DNA, graph, image, and text modeling.
 
 <details><summary><b>Show instructions</b></summary>
 
@@ -124,8 +124,6 @@ python train_deepctr.py --model WDL --ds criteo --exp cross --patience 5 --test_
 
 
 #### E. Train AutoInt models:
-
-** note about mkdir expriments for training autoint models
 
 
 Baseline + GLIDER (enhancement):
